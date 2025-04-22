@@ -1,10 +1,10 @@
-# 🩺 Breast Cancer Detection & Segmentation Using Machine Vision
+# Breast Cancer Detection & Segmentation Using Machine Vision
 
 A machine vision project designed to automate the classification and segmentation of breast cancer using ultrasound images with both classical machine learning and deep learning methods.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project assists medical professionals by providing accurate and efficient methods for:
 - Classifying breast tumors as benign, malignant, or normal.
@@ -12,7 +12,7 @@ This project assists medical professionals by providing accurate and efficient m
 
 ---
 
-## 🗃️ Dataset
+## Dataset
 
 - **Source:** [Al-Dhabyani et al., 2020](https://doi.org/10.1016/j.dib.2019.104863)
 - **Type:** Ultrasound Images (PNG format, ~500x500 resolution)
@@ -21,7 +21,7 @@ This project assists medical professionals by providing accurate and efficient m
 
 ---
 
-## 🛠️ Technologies & Methods
+## Technologies & Methods
 
 - **Feature Extraction:** VGG16 (Transfer Learning)
 - **Classification Models:**
@@ -34,7 +34,7 @@ This project assists medical professionals by providing accurate and efficient m
 
 ---
 
-## 🔧 Installation
+## Installation
 
 Clone the repository and install the required packages:
 ```bash
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚦 Usage
+## Usage
 
 1. **Feature Extraction:**
 ```bash
@@ -64,7 +64,7 @@ python segment.py --image path/to/image.png
 
 ---
 
-## 📈 Results
+## Results
 
 ### Classification Performance:
 
@@ -86,7 +86,7 @@ python segment.py --image path/to/image.png
 
 ---
 
-## 🎯 Future Improvements
+## Future Improvements
 
 - Explore advanced architectures like Swin Transformer or Nested U-Net.
 - Enhance model generalizability with more diverse datasets.
@@ -94,7 +94,7 @@ python segment.py --image path/to/image.png
 
 ---
 
-## 📚 References & Resources
+## References & Resources
 
 - [Kaggle Breast Ultrasound Dataset](https://www.kaggle.com/code/omkarmodi/vgg-19-feature-extraction)
 - [U-Net Biomedical Segmentation Guide](https://www.kaggle.com/code/saidislombek/biomedical-image-segmentation-with-u-net)
